@@ -1,0 +1,30 @@
+# Dependências do Node.js
+node_modules/
+
+# Saída da compilação do TypeScript
+dist/
+
+# Arquivos de log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ambiente local
+.env
+
+# Docker
+docker-compose.override.yml
+docker-compose.override.yaml
+.dockerignore
+Dockerfile*
+
+# Cache do TypeScript
+*.tsbuildinfo
+
+# Configurações do editor/IDE
+.vscode/
+.idea/
+*.swp
+
+# Sistema de controle de versão
+.git/
